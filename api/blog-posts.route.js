@@ -1,9 +1,9 @@
-import express from "express";
-import blogPostsController from "./blog-posts.controller.js";
+import express from 'express';
+import blogPostsController from './blog-posts.controller.js';
 
 const router = express.Router();
 
-router.route("/ping").get(blogPostsController.apiGetPing);
-router.route("/posts").get(blogPostsController.apiGetBlogPosts);
+router.route('/ping').get(blogPostsController.apiPing);
+router.route('/posts').get(blogPostsController.apiBlogPosts);
 
 export default router;
