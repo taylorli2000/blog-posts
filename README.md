@@ -1,6 +1,7 @@
 # Blog Posts
 
-Searchable mock blog posts data fetched from API
+Searchable mock blog posts data fetched from API<br/>
+Built using React, Express.js and Node.js
 
 ## Initial Setup
 
